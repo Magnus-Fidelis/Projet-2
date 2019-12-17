@@ -1,0 +1,72 @@
+
+@font-face
+{
+	font-family: 'Lato';
+    src: url('polices/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+body
+{
+    font-family: "Lato", sans-serif;
+}
+.squelette
+{
+ display: grid;
+ grid-template-columns: 27vw 1fr;
+}
+	.header
+	{
+		grid-column-start: 2;
+		margin-top: 7vh;
+		margin-right: 25vw;
+	}
+	.corpus
+	{
+		grid-column-start: 2;
+		margin-right: 4.20vw;
+		margin-top: 9.61vh;
+		text-align: justify;
+	}
+		.menuformation 
+			{
+			display: flex;
+			align-items: center;
+			}
+		.menuformation img
+			{
+			margin-right: 3.36vw;
+			}
+				.image 
+					{
+						height: 7vh;
+						margin-top: 2.5vh;
+					}
+		.ensembleparagraphe
+		{
+			display: flex;
+			flex-direction: row-reverse;
+			align-items: baseline;
+		}
+		.paragraphe
+			{
+				margin-left: 26vw;
+			}
+			.article1
+				{
+					margin-top: 5vh;
+				}
+			.article2
+				{
+					margin-top: 5vh;
+				}
+		.particle
+			{
+			
+			}
+	.presentation
+	{
+
+	}
+	/* You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+	 You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. */
