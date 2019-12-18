@@ -25,7 +25,6 @@ body
 	{
 		grid-column-start: 2;
 		margin-right: 4.20vw;
-		margin-top: 9.61vh;
 		text-align: justify;
 	}
 		.menuformation 
@@ -42,24 +41,35 @@ body
 						height: 7vh;
 						margin-top: 2.5vh;
 					}
-		.ensembleparagraphe
+		.droiteparagraphe
+		{
+			margin-left: 26vw;
+		}
+			.article
+				{
+					margin-top: 5vh;
+				}
+		.rond
+		{
+			width: 10px;
+			height: 10px;
+			border-radius: 50%;
+			background-color: #feca07;
+			border: 3px solid #fff;
+			box-shadow: 0 0 0px 4px #feca07;
+			margin-top:23px;
+			margin-right: 25px;
+
+		}
+		.toutparagraphe
 		{
 			display: flex;
-			flex-direction: row-reverse;
 			align-items: baseline;
+			flex-direction: row-reverse;
 		}
-		.paragraphe
-			{
-				margin-left: 26vw;
-			}
-			.article1
-				{
-					margin-top: 5vh;
-				}
-			.article2
-				{
-					margin-top: 5vh;
-				}
-				testtest
+		.placementrond
+		{
+			display: flex;
+		}
 	/* You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 	 You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. */
