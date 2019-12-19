@@ -201,7 +201,7 @@ body
 	grid-column-start: 1;
 	display: grid;
 	grid-template-columns: 30vw 1fr;
-	justify-items: center;
+	grid-template-rows: 1fr 50px 1fr 50px 1fr 50px 1fr;
 	background-color: #feca07;
 	height: 100%;
 }
@@ -212,39 +212,39 @@ grid-row-start: 1;
 grid-column-start: 1;
 width: 15vw;
 border-radius: 50%;
-margin-top: 4vh;
-margin-bottom: 4vh;
+place-self: center;
 }
 
 .contact
 {
-	grid-row-start: 3;
+	grid-row-start: 2;
 	grid-column-start: 1;
 	background-color: #404040;
 	width: 100%;
+	place-self: center;
 	text-align: center;
 }
 .list
 {
-	grid-row-start: 4;
+	grid-row-start: 3;
 	grid-column-start: 1;
-	justify-self: start;
+	text-align: left;
+
 }
 .propos
 {
-	grid-row-start: 5;
+	grid-row-start: 4;
 	grid-column-start: 1;
 	background-color: #404040;
 	width: 100%;
 	text-align: center;
+	place-self: center;
 
 }
 .textpropos
 {
-	grid-row-start: 6;
+	grid-row-start: 5;
 	grid-column-start: 1;
-	margin-left: 75px;
-	margin-right: 75px;
 	background-color: #feca07;
 	width: 100%;
 }
@@ -252,18 +252,18 @@ margin-bottom: 4vh;
 .loisir
 {
 	grid-column-start: 1;
-	grid-row-start: 7;
+	grid-row-start: 6;
 	background-color: #404040;
 	width: 100%;
-	text-align: center;
+	align-self: center;
 }
 .illustrationhobby
 {
 	grid-column-start: 1;
-	grid-row-start: 8;
+	grid-row-start: 7;
 	background-color: #feca07;
 	width: 100%;
-	text-align: center;
+	align-self: center;
 }
 	/* You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 	 You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. */
