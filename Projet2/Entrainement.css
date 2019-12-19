@@ -75,8 +75,12 @@ body
 }
 .squelette
 {
- display: grid;
+ display: inline-grid;
  grid-template-columns: 27vw 1fr;
+ display: flex;
+ flex-direction: row-reverse;
+ justify-content: space-around ;
+ align-items: flex-start;
 }
 	.header
 	{
@@ -192,4 +196,75 @@ body
 }
 
 /* You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+.presentation
+{
+
+	grid-column-start: 1;
+	display: grid;
+	grid-template-columns: 30vw 1fr;
+	justify-items: center;
+	background-color: #feca07;
+	height: 100vh;
+}
+/* 15% 10% 20% 10% 43% 10% 5% */
+.imagecv
+{
+grid-row-start: 1;
+grid-column-start: 1;
+width: 15vw;
+border-radius: 50%;
+margin-top: 4vh;
+margin-bottom: 4vh;
+}
+
+.contact
+{
+	grid-row-start: 3;
+	grid-column-start: 1;
+	background-color: #404040;
+	width: 100%;
+	text-align: center;
+}
+.list
+{
+	grid-row-start: 4;
+	grid-column-start: 1;
+	justify-self: start;
+}
+.propos
+{
+	grid-row-start: 5;
+	grid-column-start: 1;
+	background-color: #404040;
+	width: 100%;
+	text-align: center;
+
+}
+.textpropos
+{
+	grid-row-start: 6;
+	grid-column-start: 1;
+	margin-left: 75px;
+	margin-right: 75px;
+	background-color: #feca07;
+	width: 100%;
+}
+
+.loisir
+{
+	grid-column-start: 1;
+	grid-row-start: 7;
+	background-color: #404040;
+	width: 100%;
+	text-align: center;
+}
+.illustrationhobby
+{
+	grid-column-start: 1;
+	grid-row-start: 8;
+	background-color: #feca07;
+	width: 100%;
+	text-align: center;
+}
+	/* You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 	 You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. */
