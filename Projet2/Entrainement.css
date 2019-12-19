@@ -76,11 +76,10 @@ body
 .squelette
 {
  display: inline-grid;
- grid-template-columns: 27vw 1fr;
+ grid-template-columns: 30vw 1fr;
  display: flex;
- flex-direction: row-reverse;
- justify-content: space-around ;
- align-items: flex-start;
+ flex-direction:row-reverse ;
+
 }
 	.header
 	{
@@ -195,8 +194,8 @@ body
 	left: 0px;
 }
 
-/* You must give appropriate credit, provide a link to the license, and indicate if changes were made.
-.presentation
+/* You must give appropriate credit, provide a link to the license, and indicate if changes were made.*/
+.presentation 
 {
 
 	grid-column-start: 1;
@@ -204,9 +203,9 @@ body
 	grid-template-columns: 30vw 1fr;
 	justify-items: center;
 	background-color: #feca07;
-	height: 100vh;
+	height: 100%;
 }
-/* 15% 10% 20% 10% 43% 10% 5% */
+
 .imagecv
 {
 grid-row-start: 1;
@@ -268,3 +267,14 @@ margin-bottom: 4vh;
 }
 	/* You must give appropriate credit, provide a link to the license, and indicate if changes were made.
 	 You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. */
+
+
+.classalpha
+{
+	grid-column-start: 2;
+	margin-left: 10vw;
+}
+.class3
+{
+	grid-column-start: 1;
+}
