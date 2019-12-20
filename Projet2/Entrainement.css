@@ -69,6 +69,10 @@ p
 	font-size: 1em;
 	color:#4a4a4a
 }
+.aeterna
+{
+    color:#feca07" 
+}
 body
 {
     font-family: "Lato", sans-serif;
@@ -78,7 +82,7 @@ body
  display: inline-grid;
  grid-template-columns: 30vw 1fr;
  display: flex;
- flex-direction:row-reverse ;
+ flex-direction:row-reverse;
 
 }
 	.header
@@ -201,7 +205,7 @@ body
 	grid-column-start: 1;
 	display: grid;
 	grid-template-columns: 30vw 1fr;
-	grid-template-rows: 1fr 50px 1fr 50px 1fr 50px 1fr;
+	grid-template-rows: 1fr 3vh 1fr 3vh 1fr 3vh 1fr;
 	background-color: #feca07;
 	height: 100%;
 }
