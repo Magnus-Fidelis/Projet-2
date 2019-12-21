@@ -36,10 +36,16 @@
     margin: 0;
     
 }
-
+.toutparagraphebottom
+{
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    margin-left: 15%;
+}
 .droiteparagraphe 
 {
-    margin-left: 1vw;
+margin-left: 1vw;
   width: 100%;
 }
 
@@ -49,18 +55,21 @@
   flex-direction: column;
 }
 
+.placementrond
+{
+    margin-top: 10%;
+}
 
 .menuformation
 {
-
-justify-content: center;
+    justify-content: center;
 }
 
 .header
 {
-flex-direction: column;
-align-items: center;
-margin: 0px;
+    flex-direction: column;
+    align-items: center;
+    margin: 0px;
  
 }
 .classalpha
@@ -68,10 +77,7 @@ margin: 0px;
 	grid-column-start: 1;
 	margin-left: 0vw;
 }
-body
-{
-font-size: 100%;
-}
+
 
 .placementrond
 {
@@ -85,5 +91,28 @@ font-size: 100%;
 
 .image 
 {
-    width: 5vw;
+    width: 100px;
 }
+
+.article
+{
+    margin-top: 1vh;
+}
+
+.illustrationhobby >  div > img
+{
+	width: 5vw;
+	height: 5vw;
+
+}
+
+.imagecv
+{
+    width: 200px;
+}
+
+.list
+{
+    margin-top: 2%;
+    font-size: 2em;
+} 
