@@ -1,7 +1,12 @@
 .squelette
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
+}
+.corpus
+{
+    margin-left: 15vw;
+    margin-right: 15vw;
 }
 .presentation
 {
@@ -64,14 +69,17 @@ margin-left: 1vw;
 .menuformation
 {
     justify-content: center;
+    align-content: center;
+    font-size: 1.8em;
 }
 
 .header
 {
     flex-direction: column;
-    align-items: center;
+    align-items: flex-end;
     margin: 0px;
     font-size: 1.5em;
+
  
 }
 .classalpha
@@ -87,6 +95,7 @@ margin-left: 1vw;
 }
 .imagecv
 {
+    top: 5px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
@@ -115,6 +124,24 @@ margin-left: 1vw;
 
 .list
 {
-    margin-top: 2%;
-    font-size: 2em;
+font-size: 1.8em;
+overflow-wrap: break-word;
 } 
+.list > ul
+{
+display: flex;
+flex-direction: column;
+}
+.list > ul > li
+{
+    margin-top: 5vw;
+}
+.textebandeau
+{
+    font-size: 0.8em;
+    padding: 5em;
+}
+.droiteparagraphebottom
+{
+    margin-left: 10vw;
+}
