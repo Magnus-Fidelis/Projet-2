@@ -1,0 +1,408 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+body {
+    line-height: 1;
+}
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+@font-face
+{
+	font-family: 'Lato';
+    src: url('polices/Lato-Regular.ttf') format('truetype');
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face
+{
+	font-family: 'Lato';
+    src: url('polices/Lato-Italic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: normal;
+}
+
+@font-face
+{
+	font-family: 'Lato';
+    src: url('polices/Lato-Bold.ttf') format('truetype');
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face
+{
+	font-family: 'Lato';
+    src: url('polices/Lato-BoldItalic.ttf') format('truetype');
+    font-style: italic;
+    font-weight: bold;
+}
+body
+{
+	font-family: "Lato", sans-serif;
+}
+h1
+{
+	font-weight: bold;
+	font-style: normal;
+	font-size: 4em;
+}
+h2
+{
+	font-size: 2em;
+	font-weight: bold;
+	font-style: normal;
+	color: #4a4a4a
+}
+h3
+{
+	font-size: 2em;
+	font-weight: bold;
+}
+h4
+{
+	font-size: 1.5em;
+	color: #4a4a4a;
+}
+
+h5
+{
+	font-size: 1.2em;
+	color:#4a4a4a;
+	font-weight: normal;
+}
+p
+{
+	font-size: 1em;
+	color:#4a4a4a;
+}
+.aeterna
+{
+	color: #feca07;
+	margin-bottom: 2%;
+}
+
+.squelette
+{
+	display: inline-grid;
+	grid-template-columns: 30vw 1fr;
+}
+	.header
+	{
+		grid-column-start: 2;
+		margin-top: 7vh;
+		margin-right: 20vw;
+	}
+	.corpus
+	{
+		grid-column-start: 2;
+		text-align: left;
+		display: flex;
+		flex-direction: column;
+		
+	}
+			.bordure
+		{
+			margin-top:7vh;
+		}
+		.menuformation 
+			{
+			display: flex;
+			}
+		.menuformation img
+			{
+			margin-right: 3.36vw;
+			}
+				.image 
+					{
+						width: 5vw;
+						margin-top: 2.5vh;
+					}
+		.droiteparagraphe
+		{
+			
+			margin-right: 5vw;
+			width: 80%;
+		}
+			.article
+				{
+					margin-top: 5vh;
+				}
+				.article > h4
+				{
+					margin-top: 2vh;
+				}
+				.article > h5
+				{
+					margin-top: 2vh;
+					margin-bottom: 2vh
+				}
+				.article > p
+				{
+					margin-top: 1.5vh;
+				}
+		.rond
+		{
+			width: 10.5px;
+			height: 10.5px;
+			border-radius: 50%;
+			background-color: #feca07;
+			border: 2.25px solid #fff;
+			box-shadow: 0 0 0px 2px #feca07;
+			margin-right: 1vw;
+
+		}
+		.toutparagraphe
+		{
+			display: flex;
+			align-items: baseline;
+		}
+		
+		.placementrond
+		{
+			display: flex;
+			font-size: 1.3em;
+			align-items: baseline;
+			width: 40%;
+			justify-content: baseline;
+			flex-wrap: nowrap;
+			padding-right: 50px;
+		}
+
+.toutparagraphebottom
+{
+	display: flex;
+	justify-content: space-around;
+	align-items: baseline;
+}
+
+.droiteparagraphebottom
+{
+	margin-right: 10vw;
+	margin-bottom: 5%;
+}
+
+.police
+{
+	font-size: 1em;
+	margin-top: 10%;
+}
+.police2
+{
+	font-weight: bold;
+	margin-top: 10%;
+}
+
+
+.separation
+{
+	background-color: #feca07 ;
+	color: #feca07;
+	height: 2px;
+	border: none;
+}
+
+.border
+{
+	position: relative;
+	margin-bottom: 11%;
+}
+.border::after
+{
+	position: absolute;
+	width: 75px;
+	content: '';
+	border-bottom: 2px solid #feca07;
+	bottom: -2px;
+	left: 0px;
+}
+
+/* You must give appropriate credit, provide a link to the license, and indicate if changes were made.*/
+.presentation 
+{
+
+	grid-column-start: 1;
+	display: grid;
+	grid-template-columns: 30vw 1fr;
+	grid-template-rows: auto auto auto auto 1fr auto auto;
+	background-color: #feca07;
+	min-height: 100%;
+}
+
+.imagecv
+{
+grid-row-start: 1;
+grid-column-start: 1;
+display: flex;
+width: 50%;
+justify-content: center;
+border-radius: 50%;
+}
+
+.imagecv2
+{
+display: none;
+}
+
+.figure
+{
+	display: flex;
+	justify-content: center;
+	padding-top: 5%; 
+	padding-bottom: 10%;
+}
+.contact
+{
+	grid-row-start: 2;
+	grid-column-start: 1;
+	background-color: #404040;
+	width: 100%;
+	place-self: center;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #feca07;
+}
+.list
+{
+	margin-left: 4.01vw;
+	grid-row-start: 3;
+	grid-column-start: 1;
+	grid-row-end: 4;
+	margin-bottom: 10%;
+	word-wrap: break-word;
+}
+.list > ul
+{
+	list-style-type: none;
+}
+
+.list > ul > li
+{
+	list-style-type: none;
+	margin-top: 10%;
+}
+.propos
+{
+	grid-row-start: 4;
+	grid-column-start: 1;
+	background-color: #404040;
+	width: 100%;
+	place-self: center;
+	text-align: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #feca07;
+	margin-bottom: 2%;
+
+}
+.textpropos
+{
+	grid-row-start: 5;
+	grid-column-start: 1;
+	background-color: #feca07;
+	width: 100%;
+	text-align: center;
+
+}
+
+.loisir
+{
+	grid-column-start: 1;
+	grid-row-start: 6;
+	background-color: #404040;
+	width: 100%;
+	text-align: center;
+	place-self: center;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	color: #feca07;
+}
+.test
+{
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+.illustrationhobby
+{
+	grid-column-start: 1;
+	grid-row-start: 7;
+	background-color: #feca07;
+	width: 100%;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	display: flex;
+	align-content: center;
+	justify-content: space-around;
+
+}
+.illustrationhobby >  div > img
+{
+	width: 2.5vw;
+	height: 2vw;
+	align-items: center;
+}
+	/* You must give appropriate credit, provide a link to the license, and indicate if changes were made.
+	 You may do so in any reasonable manner, but not in any way that suggests the licensor endorses you or your use. */
+
+
+.classalpha
+{
+	grid-column-start: 2;
+	margin-left: 7vw;
+}
+.class3
+{
+	grid-column-start: 1;
+}
+.textebandeau
+{
+text-align: justify;
+margin-left: 4vw;
+margin-right: 4vw;
+}
+.cercle
+{
+	border-radius: 50%;
+	border: solid 5px #feca07;
+	box-shadow: 0 0 0 2px black;
+	padding: 1vw;
+}
+
