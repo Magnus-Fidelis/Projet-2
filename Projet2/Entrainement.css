@@ -275,6 +275,11 @@ justify-content: center;
 border-radius: 50%;
 }
 
+.imagecv2
+{
+display: none;
+}
+
 .figure
 {
 	display: flex;
