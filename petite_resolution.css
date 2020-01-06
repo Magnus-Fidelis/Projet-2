@@ -17,10 +17,7 @@
 }
 .list > ul
 {
-    display: flex;
-    flex-direction: row;
     justify-content: space-around;
-    text-align: top;
 }
 
 .list > ul > li
@@ -132,7 +129,9 @@ display: none;
 
 .list
 {
+margin-left: 10vw;
 font-size: 1.8em;
+margin-bottom: 7%;
 overflow-wrap: break-word;
 } 
 .list > ul
