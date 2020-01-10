@@ -134,16 +134,15 @@ p
 		grid-column-start: 2;
 		text-align: left;
 		display: flex;
+		display: -webkit-flex;
 		flex-direction: column;
 		
 	}
-			.bordure
-		{
-			margin-top:7vh;
-		}
 		.menuformation 
 			{
 			display: flex;
+			display: -webkit-flex;
+			margin-top: 7vh;
 			}
 		.menuformation img
 			{
@@ -152,7 +151,6 @@ p
 				.image 
 					{
 						width: 5vw;
-						margin-top: 2.5vh;
 					}
 		.droiteparagraphe
 		{
@@ -191,12 +189,14 @@ p
 		.toutparagraphe
 		{
 			display: flex;
+			display: -webkit-flex;
 			align-items: baseline;
 		}
 		
 		.placementrond
 		{
 			display: flex;
+			display: -webkit-flex;
 			font-size: 1.3em;
 			align-items: baseline;
 			width: 40%;
@@ -208,6 +208,7 @@ p
 .toutparagraphebottom
 {
 	display: flex;
+	display: -webkit-flex;
 	justify-content: space-around;
 	align-items: baseline;
 }
@@ -282,6 +283,7 @@ display: none;
 .figure
 {
 	display: flex;
+	display: -webkit-flex;
 	justify-content: center;
 	padding-top: 5%; 
 	padding-bottom: 10%;
@@ -368,6 +370,7 @@ display: none;
 	padding-top: 5%;
 	padding-bottom: 5%;
 	display: flex;
+	display: -webkit-flex;
 	align-content: center;
 	justify-content: space-around;
 
