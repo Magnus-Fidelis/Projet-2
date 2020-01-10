@@ -143,6 +143,7 @@ p
 			display: flex;
 			display: -webkit-flex;
 			margin-top: 7vh;
+			align-items: center;
 			}
 		.menuformation img
 			{
