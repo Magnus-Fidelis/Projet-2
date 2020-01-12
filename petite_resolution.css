@@ -80,6 +80,8 @@ margin-left: 1vw;
     display: -webkit-flex;
     margin-right: 5vw;
     margin-top: 5vw;
+    flex-direction: column;
+    align-items: center;
  
 }
 .classalpha
@@ -135,7 +137,6 @@ display: none;
 .list
 {
 margin-left: 10vw;
-font-size: 1.8em;
 margin-bottom: 7%;
 overflow-wrap: break-word;
 } 
@@ -155,9 +156,8 @@ flex-direction: column;
     margin: 0.5vh 5vw 2vh 5vw;
 }
 
-h1
-{
-    font-size: 75px;
+h1 {
+    font-size: 3em;
 }
 
 @media screen and (max-width 400px)
